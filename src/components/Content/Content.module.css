@@ -4,5 +4,16 @@
   padding: 15px;
 }
 .content {
+  flex-direction: column;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: auto auto;
   background-color: #79bea8;
+  overflow: hidden;
+}
+@media (max-width: 1000px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
 }

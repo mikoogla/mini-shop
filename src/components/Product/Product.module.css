@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  overflow: hidden;
+  width: 95%;
+  background-color: #448d76;
+  color: #093426;
+}
+@media screen and (min-width: 1000px) {
+  .main {
+    width: auto;
+    min-width: 35vw;
+  }
+}
