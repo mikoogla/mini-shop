@@ -4,7 +4,7 @@
   padding: 15px;
 }
 .content {
-  flex-direction: column;
+  /*if sth goes wrong, paste flex-direction: column here */
   display: grid;
   grid-gap: 15px;
   grid-template-columns: auto auto;
