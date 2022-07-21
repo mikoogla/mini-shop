@@ -18,9 +18,9 @@
   gap: 25px;
 }
 .button {
-  background-color: #093426;
-  color: #448d76;
-  border: none;
+  background-color: #093426 !important;
+  color: #448d76 !important;
+  border: none !important;
   align-items: center;
 }
 @media (min-width: 1000px) {

@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initial_cart = {
   products: [],
+  hide: true,
 };
 
 const cartSlice = createSlice({
@@ -13,6 +14,9 @@ const cartSlice = createSlice({
     },
     removeProduct: (state, action) => {
       state.products.splice(action.payload.product, 1);
+    },
+    toggleCart: (state) => {
+      state.hide = !state.hide;
     },
   },
 });
