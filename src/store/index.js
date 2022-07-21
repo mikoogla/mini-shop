@@ -9,6 +9,6 @@ const store = configureStore({
   },
 });
 
-export const { addProduct, removeProduct } = productsSlice.actions;
+export const { addProduct, removeProduct } = cartSlice.actions;
 
 export default store;

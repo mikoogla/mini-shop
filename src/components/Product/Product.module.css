@@ -9,9 +9,33 @@
   background-color: #448d76;
   color: #093426;
 }
-@media screen and (min-width: 1000px) {
+.buttonsContainer {
+  width: 95%;
+  margin: 5px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 25px;
+}
+.button {
+  background-color: #093426;
+  color: #448d76;
+  border: none;
+  align-items: center;
+}
+@media (min-width: 1000px) {
   .main {
     width: auto;
     min-width: 35vw;
+  }
+}
+@media (max-width: 340px) {
+  .main {
+    width: auto;
+    min-width: 35vw;
+  }
+  .buttonsContainer {
+    flex-direction: column;
+    gap: 5px;
   }
 }

@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <div className={styles.main}>
       Navbar
-      <Button className={styles.button}>Log In</Button>
+      <Button className={styles.button}>Cart</Button>
     </div>
   );
 }

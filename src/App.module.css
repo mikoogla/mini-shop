@@ -6,5 +6,5 @@
   background-color: #e7f3ef;
 }
 main {
-  height: 100vh;
+  flex: 1;
 }
