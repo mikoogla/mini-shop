@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #093426;
+  color: #fff;
+  padding: 15px;
+}
+.button {
+  background-color: #79bea8;
+  color: #093426;
+  border-color: #272727;
+}
