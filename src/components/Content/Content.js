@@ -1,35 +1,12 @@
 import React from "react";
-import { useSelector } from "react-redux";
-import Product from "../Product/Product";
-import Card from "../UI/Card/Card";
+import Cart from "./items/Cart";
 import styles from "./Content.module.css";
+import Products from "./items/Products";
 export default function Content() {
-  const products = useSelector((state) => state.products.products);
-  const cart = useSelector((state) => state.cart.products);
-  const cartSize = useSelector((state) => state.cart.size);
-  const isHidden = useSelector((state) => state.cart.hide);
   return (
     <div className={styles.main}>
-      {!isHidden && (
-        <Card className={styles.cart}>
-          {cartSize > 0 ? (
-            cart.map(
-              (product) =>
-                product.quantity > 0 && (
-                  <Product key={product.id} product={product}></Product>
-                )
-            )
-          ) : (
-            <h2>The Cart is empty</h2>
-          )}
-        </Card>
-      )}
-
-      <Card className={styles.content}>
-        {products.map((product) => (
-          <Product key={product.id} product={product} />
-        ))}
-      </Card>
+      <Cart />
+      <Products />
     </div>
   );
 }
