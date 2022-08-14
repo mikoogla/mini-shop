@@ -10,7 +10,6 @@ export default function Cart() {
   const isHidden = useSelector((state) => state.cart.hide);
   return (
     <>
-      {" "}
       {!isHidden && (
         <Card className={styles.cart}>
           {cartSize > 0 ? (
