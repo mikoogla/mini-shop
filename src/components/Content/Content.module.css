@@ -11,6 +11,14 @@
   background-color: #79bea8;
   overflow: hidden;
 }
+.cart {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: auto auto;
+  background-color: #093426;
+  color: #e7f3ef;
+  overflow: hidden;
+}
 @media (max-width: 1000px) {
   .content {
     display: flex;

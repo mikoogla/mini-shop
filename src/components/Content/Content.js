@@ -11,7 +11,7 @@ export default function Content() {
   return (
     <div className={styles.main}>
       {!isHidden && (
-        <Card className={styles.content}>
+        <Card className={styles.cart}>
           {cartSize > 0 ? (
             cart.map((product) => (
               <Product key={product.id} product={product}>
