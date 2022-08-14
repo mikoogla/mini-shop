@@ -14,10 +14,12 @@ export default function Product(props) {
     dispatch(removeProduct({ product: props.product }));
   };
   return (
-    <Card {...props} className={styles.main}>
-      Name: {props.product.name}, <br />
-      Price: {props.product.price.toFixed(2)}, <br />
-      Description: {props.product.description}
+    <Card className={styles.main} {...props}>
+      <div className={styles.content}>
+        Name: {props.product.name}, <br />
+        Price: {props.product.price.toFixed(2)}, <br />
+        Description: {props.product.description}
+      </div>
       <div className={styles.buttonsContainer}>
         <Button className={styles.button} onClick={addProductHandler}>
           Add

@@ -7,18 +7,21 @@ const initial_products = {
       name: "Yerba Kurupi",
       price: 10.78,
       description: "Yerba Mate Kurupi Classic 0,5kg",
+      quantity: 0,
     },
     {
       id: 2,
       name: "Yerba Mate Pajarito",
       price: 21.67,
       description: "Yerba Mate Pajarito Elaborada Con Palo Traditional 1kg",
+      quantity: 0,
     },
     {
       id: 3,
       name: "Yerba Mate Kurupi Limon",
       price: 12.0,
       description: "Yerba Mate Kurupi Menta Limon 0,5kg",
+      quantity: 0,
     },
   ],
 };
