@@ -20,7 +20,8 @@
   overflow: hidden;
 }
 @media (max-width: 1000px) {
-  .content {
+  .content,
+  .cart {
     display: flex;
     flex-direction: column;
   }

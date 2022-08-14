@@ -6,7 +6,7 @@ import { toggleCart } from "../../store/index.js";
 
 export default function Navbar() {
   const dispatch = useDispatch();
-  const cartSize = useSelector((state) => state.cart.products.length);
+  const cartSize = useSelector((state) => state.cart.size);
   return (
     <div className={styles.main}>
       Navbar
