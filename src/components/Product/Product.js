@@ -1,5 +1,5 @@
 import React from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 import { addProduct, removeProduct } from "../../store/index.js";
 import styles from "./Product.module.css";
 import Card from "../UI/Card/Card";
