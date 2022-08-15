@@ -18,8 +18,9 @@ export default function Product(props) {
       <div className={styles.content}>
         Name: {props.product.name}, <br />
         Price: {props.product.price.toFixed(2)}, <br />
-        Description: {props.product.description}, <br />
-        Quantity: {props.product.quantity}
+        {props.type === "ProductList" &&
+          `Description: ${props.product.description}`}
+        {props.type !== "ProductList" && `Quantity: ${props.product.quantity}`}
       </div>
       <div className={styles.buttonsContainer}>
         <Button className={styles.button} onClick={addProductHandler}>

@@ -9,7 +9,7 @@ export default function Products() {
   return (
     <Card className={styles.content}>
       {products.map((product) => (
-        <Product key={product.id} product={product} />
+        <Product key={product.id} product={product} type="ProductList" />
       ))}
     </Card>
   );
