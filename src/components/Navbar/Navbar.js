@@ -9,7 +9,7 @@ export default function Navbar() {
   const cartSize = useSelector((state) => state.cart.size);
   return (
     <div className={styles.main}>
-      Navbar
+      <h3 className={styles.name}>Yerba Mate Shop</h3>
       <Button
         onClick={() => {
           dispatch(toggleCart());
