@@ -20,6 +20,24 @@ const initial_products = {
       price: 12.0,
       description: "Yerba Mate Kurupi Menta Limon 0,5kg",
     },
+    {
+      id: 4,
+      name: "Random Sample",
+      price: 2.0,
+      description: "Try it",
+    },
+    {
+      id: 5,
+      name: "Taragui ENERGIA",
+      price: 15.96,
+      description: "Yerba Mate Taragui ENERGIA 0,5kg",
+    },
+    {
+      id: 6,
+      name: "Matero + Bombilla",
+      price: 50.0,
+      description: "Good quality",
+    },
   ],
 };
 

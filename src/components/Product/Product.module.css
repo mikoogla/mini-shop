@@ -29,8 +29,7 @@
 }
 @media (min-width: 1000px) {
   .main {
-    width: auto;
-    min-width: 35vw;
+    width: 35vw;
   }
 }
 @media (max-width: 530px) {
@@ -41,7 +40,7 @@
 @media (max-width: 340px) {
   .main {
     display: flex;
-    width: auto;
+    width: 90%;
     min-width: 35vw;
     flex-direction: column !important;
   }
